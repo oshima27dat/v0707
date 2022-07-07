@@ -37,8 +37,7 @@ namespace v0707
 
         private void button3_Click(object sender, EventArgs e)
         {
-            int ave;
-            ave =(data[0] + data[1] + data[2]) / 3;
+            int ave = (data[0] + data[1] + data[2]) / 3;
             MessageBox.Show($"{ ave}");
         }
     }
